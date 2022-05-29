@@ -1,0 +1,3 @@
+fix restart
+optimaze createStorageTable function
+refactor the whole app (remove Window.js, etc.)

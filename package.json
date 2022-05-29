@@ -1,0 +1,29 @@
+{
+  "name": "electron-app",
+  "version": "0.3.0",
+  "description": "A simple app",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "watch": "nodemon --exec electron ."
+  },
+  "repository": "",
+  "keywords": [
+    "Electron"
+  ],
+  "author": "Drimuar",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^3.0.4",
+    "devtron": "^1.4.0",
+    "electron-packager": "^15.5.1",
+    "nodemon": "^2.0.16",
+    "standard": "^12.0.1"
+  },
+  "dependencies": {
+    "electron-reload": "^1.2.5",
+    "electron-store": "^2.0.0",
+    "spectre.css": "^0.5.3",
+    "spectre.css-js": "^1.0.3"
+  }
+}
